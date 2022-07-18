@@ -3,6 +3,9 @@
 # pip install paddlehub -i https://mirror.baidu.com/pypi/simple
 # hub install chinese_text_detection_db_server
 
+
+# Made By: Mahmoud Nabil Hessein
+
 import paddlehub as hub
 import cv2
 import os
@@ -78,3 +81,15 @@ for textINFO in finaldata:
     print("\n")
 
 print("\n Final Text: "+s)
+
+
+
+"""
+
+
+Final Text: This is a lot of 12 point text to test theocr code and see if it works on all typesof file format.
+The quick brown dog jumped over thelazy fox.
+The quick brown dog jumpedover the lazy fox.
+The quick brown dogjumped over the lazy fox. 
+The quickbrown dog jumped over the lazy fox.
+"""
