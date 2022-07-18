@@ -4,7 +4,7 @@
 # hub install chinese_text_detection_db_server
 
 
-# Made By: Mahmoud Nabil Hessein
+# Mahmoud Nabil Task 1
 
 import paddlehub as hub
 import cv2
