@@ -16,11 +16,40 @@ def load_images_from_folder(folder):
             images.append(img)
     return images     
 
-# folder_imgs= load_images_from_folder("C:/Users/Lenovo/Pictures/2020-06/")
 
 
 # ocr = hub.Module(name="chinese_ocr_db_crnn_server")
 ocr=hub.Module.init_with_name(name="chinese_ocr_db_crnn_server")
+
+
+# folder_imgs= load_images_from_folder("path/to/folder/images") #enter path here !!!
+# for image in folder_imgs:
+#     roi = cv2.selectROI(img)
+#     #print rectangle points of selected roi
+#     print(roi)
+
+#     #Crop selected roi from raw image
+#     roi_cropped = img[int(roi[1]):int(roi[1]+roi[3]), int(roi[0]):int(roi[0]+roi[2])]
+#     #show cropped image
+#     cv2.imshow("ROI", roi_cropped)
+#     cv2.waitKey(0)
+#     cv2.destroyAllWindows()
+
+#     result = ocr.recognize_text(images=[roi_cropped])
+
+#     finaldata=result[0]["data"]
+#     s=""
+#     print("Number of text detected= "+str(len(finaldata)))
+#     print('\n')
+#     print(finaldata)
+#     for textINFO in finaldata:
+#         print(textINFO)
+#         print("\n")
+#         s=s+textINFO["text"]
+#         print("\n")
+
+#     print("\n Final Text: "+s)
+
 
 img=cv2.imread('test.jpg')
 roi = cv2.selectROI(img)
