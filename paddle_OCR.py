@@ -87,9 +87,9 @@ print("\n Final Text: "+s)
 """
 
 
-Final Text: This is a lot of 12 point text to test theocr code and see if it works on all typesof file format.
-The quick brown dog jumped over thelazy fox.
-The quick brown dog jumpedover the lazy fox.
-The quick brown dogjumped over the lazy fox. 
-The quickbrown dog jumped over the lazy fox.
+ Final Text: This is a lot of 12 point text to test theocr code and see if it works on all typesof file format,
+ The quick brown dog jumped over thelazy fox. 
+ The quick brown doq jumpedover the lazy fox. 
+ The quick brown dogjumped over the lazy fox. 
+ The quickbrown dog jumped over the lazy fox.
 """
