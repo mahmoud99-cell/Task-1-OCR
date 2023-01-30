@@ -1,7 +1,7 @@
 # Task-1-OCR
 
 Steps:
--Clone repo ```git clone https://github.com/mahmoud99-cell/Task-1-OCR.git```
+- Clone repo ```git clone https://github.com/mahmoud99-cell/Task-1-OCR.git```
 - Open anaconda prompt and install Paddle OCR  
 
 ```
